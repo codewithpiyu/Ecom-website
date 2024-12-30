@@ -1,4 +1,4 @@
-import products from "./api/products.json";
+import products from "./api/products.json" with {type: "json"};
 import { fetchQuantityFromCartLS } from "./fetchQuantityFromCartLS.js";
 import { getCartProductFromLS } from "./getCartProducts.js";
 import { incrementDecrement } from "./incrementDecrement.js";
