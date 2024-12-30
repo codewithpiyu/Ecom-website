@@ -1,6 +1,6 @@
-import { getCartProductFromLS } from "./getCartProducts";
-import { showToast } from "./showToast";
-import { updateCartValue } from "./updateCartValue";
+import { getCartProductFromLS } from "./getCartProducts.js";
+import { showToast } from "./showToast.js";
+import { updateCartValue } from "./updateCartValue.js";
 
 // -----------------------------------------------------
 // to get the cart data from localStorage
@@ -46,7 +46,7 @@ export const addToCart = (event, id, stock) => {
     return false;
   }
 
-  //todo Don't Forget To LIKE SHARE & SUBSCRIBE TO THAPA TECHNCIAL YOUTUBE CHANNEL 👉 https://www.youtube.com/thapatechnical
+
 
   price = Number(price * quantity);
   quantity = Number(quantity);
